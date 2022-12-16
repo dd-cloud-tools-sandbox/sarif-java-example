@@ -31,3 +31,4 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: mvn verify
+        - Run: mvn site
