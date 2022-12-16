@@ -25,10 +25,11 @@ Actions:
         Enabled: true
         # Use as prefix for the report files
         ReportNamePrefix: rpt
+        IncludePaths:
+          - "manual_reports/*"
 
     # Defines the action's properties.
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
-        - Run: mvn clean install
-        - Run: mvn site
+        - Run: mvn clean compile
