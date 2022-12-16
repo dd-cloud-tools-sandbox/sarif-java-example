@@ -32,4 +32,4 @@ Actions:
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
-        - Run: mvn clean compile
+        - Run: echo "Generating sarif report manually"
